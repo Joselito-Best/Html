@@ -1,14 +1,237 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi primera web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resumen Técnico — Accidente Maldivas</title>
+<style>
+body{
+    background:#0b1020;
+    color:#dfe7ff;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:30px;
+}
+.hero{
+    background:linear-gradient(135deg,#091224,#132548);
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 0 30px rgba(0,0,0,0.4);
+    margin-bottom:25px;
+}
+.hero h1{
+    margin:0;
+    font-size:2.4rem;
+}
+.hero p{
+    color:#9fb3ff;
+    margin-top:15px;
+    line-height:1.6;
+}
+.card{
+    background:#121a31;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:18px;
+    border:1px solid rgba(255,255,255,0.06);
+}
+summary{
+    cursor:pointer;
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#7ec8ff;
+}
+summary:hover{
+    color:#b7e2ff;
+}
+details{
+    transition:0.3s;
+}
+.details-content{
+    margin-top:15px;
+    line-height:1.7;
+    color:#d4ddff;
+}
+.tag{
+    display:inline-block;
+    background:#1e325f;
+    color:#8fd3ff;
+    padding:6px 12px;
+    border-radius:999px;
+    margin:5px;
+    font-size:0.9rem;
+}
+.warning{
+    background:#2a1620;
+    border-left:5px solid #ff5f7a;
+    padding:18px;
+    border-radius:12px;
+    margin-top:20px;
+}
+.footer{
+    text-align:center;
+    color:#6d7ba8;
+    margin-top:40px;
+    font-size:0.9rem;
+}
+</style>
 </head>
-<body style="background:#111;color:#0f0;font-family:Arial;padding:40px;">
+<body>
 
-<h1>Hola Jose 😄</h1>
+<div class="container">
 
-<p>Esta es mi primera web subida a GitHub Pages.</p>
+<div class="hero">
+<h1>🌊 Accidente de Buceo — Maldivas</h1>
+<p>
+Resumen técnico simplificado para entender qué ocurrió, qué hipótesis se manejan y por qué esta inmersión era extremadamente seria incluso para buceadores avanzados.
+</p>
+
+<div>
+<span class="tag">Cueva</span>
+<span class="tag">50-60m</span>
+<span class="tag">Buceo técnico</span>
+<span class="tag">CCR posible</span>
+<span class="tag">Corrientes fuertes</span>
+</div>
+</div>
+
+<div class="card">
+<details open>
+<summary>🧭 ¿Qué tipo de inmersión era?</summary>
+<div class="details-content">
+No parece una inmersión recreativa convencional.
+<br><br>
+Todo apunta a una inmersión técnica seria:
+<ul>
+<li>Entorno de cueva / overhead</li>
+<li>Profundidades cercanas a 50-60 metros</li>
+<li>Uso de DPVs/scooters submarinos</li>
+<li>Operación de rescate con rebreathers CCR</li>
+<li>Gran complejidad logística</li>
+</ul>
+</div>
+</details>
+</div>
+
+<div class="card">
+<details>
+<summary>⚙️ ¿Circuito abierto o rebreather?</summary>
+<div class="details-content">
+Todavía NO está confirmado oficialmente qué equipo llevaban las víctimas.
+<br><br>
+Lo que sí está confirmado es que el equipo de recuperación utilizó:
+<ul>
+<li>CCR / Rebreathers</li>
+<li>Configuraciones redundantes</li>
+<li>Equipos de rescate técnico avanzados</li>
+</ul>
+
+Actualmente muchas noticias mezclan:
+<ul>
+<li>el equipo del rescate</li>
+<li>con el equipo de las víctimas</li>
+</ul>
+
+Por eso sigue existiendo confusión.
+</div>
+</details>
+</div>
+
+<div class="card">
+<details>
+<summary>🌪️ Hipótesis más probables</summary>
+<div class="details-content">
+<h3>1. Corrientes fuertes / efecto Venturi</h3>
+La cueva parece tener estrechamientos y corrientes importantes.
+Esto puede:
+<ul>
+<li>desorientar</li>
+<li>disparar consumo de gas</li>
+<li>separar equipos</li>
+<li>provocar pánico</li>
+</ul>
+
+<h3>2. Pérdida de visibilidad</h3>
+En cuevas, un poco de sedimento puede convertir todo en cero visibilidad.
+<br><br>
+Sin referencia visual:
+<ul>
+<li>la navegación colapsa</li>
+<li>el estrés sube muy rápido</li>
+<li>el consumo de gas se dispara</li>
+</ul>
+
+<h3>3. Toxicidad de oxígeno</h3>
+A esas profundidades, una PPO2 agresiva o una mezcla incorrecta puede producir:
+<ul>
+<li>convulsiones</li>
+<li>blackout</li>
+<li>ahogamiento inmediato</li>
+</ul>
+</div>
+</details>
+</div>
+
+<div class="card">
+<details>
+<summary>🚨 Lo más impactante</summary>
+<div class="details-content">
+Incluso un rescatador militar sufrió enfermedad descompresiva durante las operaciones.
+<br><br>
+Eso da una idea del nivel de dificultad y riesgo del entorno.
+<br><br>
+No era una inmersión “complicada”.
+Era una inmersión extremadamente seria.
+</div>
+</details>
+</div>
+
+<div class="card">
+<details>
+<summary>📉 Mi lectura técnica</summary>
+<div class="details-content">
+En cuevas profundas técnicas:
+<ul>
+<li>los errores pequeños se encadenan</li>
+<li>la ventana de reacción es mínima</li>
+<li>el entorno no perdona</li>
+</ul>
+
+Probablemente no hubo un único fallo.
+<br><br>
+Lo más posible es:
+<ul>
+<li>cadena de eventos</li>
+<li>estrés creciente</li>
+<li>corriente</li>
+<li>desorientación</li>
+<li>problema de gas o navegación</li>
+</ul>
+</div>
+</details>
+</div>
+
+<div class="warning">
+⚠️ Todavía faltan datos oficiales:
+<ul>
+<li>perfil exacto de inmersión</li>
+<li>gases utilizados</li>
+<li>configuración del equipo</li>
+<li>cronología completa</li>
+</ul>
+Por eso algunas hipótesis siguen abiertas.
+</div>
+
+<div class="footer">
+Resumen técnico simplificado para compartir en foros y grupos de buceo.
+</div>
+
+</div>
 
 </body>
 </html>
